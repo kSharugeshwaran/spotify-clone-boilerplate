@@ -1,0 +1,421 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.spotify{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.column{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    
+}
+.logo img{
+    width: 180px;
+    height: 50px;
+    padding: 30px;
+}
+.home img{
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+}
+.home p{
+    padding-bottom: 0px;
+}
+.search img{
+    height: 25px;
+    width: 25px;
+    padding-left:  30px;
+    padding-right: 30px; 
+}
+.search{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.library img{
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+.library{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.playlist img{
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;   
+}
+.playlist{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.liked img{
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;  
+}
+.liked{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.yepisodes img{
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;  
+}
+.yepisodes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.fav{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.fav p{
+      padding-top: 10px;
+}
+.install img{
+    width: 25px;
+    height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;  
+}
+.install{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row; 
+    padding-bottom: 5px;  
+}
+.arrows img{
+    padding: 20px 20px 0px 50px;
+    width:90px;
+    height: 40px;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    padding: 20px 20px 50px 0px;
+    
+    
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 1212px;
+    justify-content: space-between;
+    background-color: rgb(33,33,33);
+    
+    
+}
+.m1{
+    background-color: rgb(33,33,33) ;
+    width: 1212px;
+    padding-bottom: 20px;
+
+}
+.m1 #greet{
+    font-size: 40px;
+    color: white;
+    padding-left: 50px; 
+}
+.m1 #one img{
+    width: 70px;
+    height: 70px;
+    
+    
+}
+.m1 #one{
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+}
+.m1 #one p{
+    font-size: 16px;    
+    font-weight:500;
+    padding-top: 27px;
+    padding-left: 10px;
+    color: White;
+    
+}
+#one{
+    background-color: rgb(48,48,48);
+    margin-left: 50px;
+    margin-top: 20px ;
+    width: 250px;
+}
+#two{
+    background-color: rgb(48,48,48);
+    margin-left: 50px;
+    margin-top: 20px ;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+
+}
+#two img{
+    width: 70px;
+    height: 70px;
+    
+    
+}
+#two p{
+    font-size: 16px;    
+    font-weight:500;
+    padding-top: 27px;
+    padding-left: 10px;
+    color: White;
+}
+#three{
+    background-color: rgb(48,48,48);
+    margin-left: 50px;
+    margin-top: 20px ;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+}
+#three img{
+    width: 70px;
+    height: 70px;
+    
+    
+}
+#three p{
+    font-size: 16px;    
+    font-weight:500;
+    padding-top: 27px;
+    padding-left: 10px;
+    color: White;
+}
+#four{
+    background-color: rgb(48,48,48);
+    margin-left: 50px;
+    margin-top: 20px ;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+}
+#four img{
+    width: 70px;
+    height: 70px;
+    
+    
+}
+#four p{
+    font-size: 16px;    
+    font-weight:500;
+    padding-top: 27px;
+    padding-left: 10px;
+    color: White;
+}
+#five{
+    background-color: rgb(48,48,48);
+    margin-left: 50px;
+    margin-top: 20px ;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+}
+#five img{
+    width: 70px;
+    height: 70px;
+    
+    
+}
+#five p{
+    font-size: 16px;    
+    font-weight:500;
+    padding-top: 27px;
+    padding-left: 10px;
+    color: White;
+}
+.imgtext1{
+    display: flex;
+    flex-direction: row;
+}
+.m2{
+    background-color: rgb(33,33,33) ;
+    width: 1212px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.recommendation p{
+    font-size: 35px;
+    color: white;
+    padding-left: 50px; 
+    
+}
+#o{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(24,24,24);
+    color: white;
+    width: 150px;
+
+}
+#o img{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+#o p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+#t{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(24,24,24);
+    color: white;
+    width: 150px;
+
+}
+#t img{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+#t p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+#th{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(24,24,24);
+    color: white;
+    width: 150px;
+
+}
+#th img{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+#th p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+#f{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(24,24,24);
+    color: white;
+    width: 150px;
+
+}
+#f img{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+#f p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+#fi{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(24,24,24);
+    color: white;
+    width: 150px;
+
+}
+#fi img{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+#fi p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+#six{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: rgb(24,24,24);
+    color: white;
+    width: 150px;
+
+}
+#six img{
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+#six p{
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.imgtext2{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 23px;
+}
+.play{
+    background-color:rgb(24,24,24) ;
+    margin-left: -250px;
+}
+.fimg1 img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}
+.fimg1 p{
+    color: white;
+    padding-top: 23px;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.fimg1{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    font-size: 9px;
+}
+.heart img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.play{
+    display: flex;
+    flex-direction: row;
+}
