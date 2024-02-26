@@ -6,82 +6,100 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="spotify">
-        <div class="column">
-            <div class="logo"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/Spotify%20logo.png" alt=""></div>
-            <div class="options">
-                <div class="home"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/Home.png" alt=""><p>Home</p></div>
-                <div class="search"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/Search.png" alt=""><p>Search</p></div>
-                <div class="library"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/Your%20library.png" alt=""><p>Your Library</p></div>
+<body >
+<div class="flex">
+<div id="sidemenu">
+    <div>
+        <img src="assets\Spotify logo.png" alt="" id="logo">
+        <div class="flex align1" id="grey-border"><img src="assets\Home.png" alt="" class="sidemenu-img1"><p>Home</p></div>
+        <div class="flex align1"><img src="assets\Search.png" alt="" class="sidemenu-img1"><p>Search</p></div>
+        <div class="flex align1"><img src="assets\Your library.png" alt="" class="sidemenu-img1"><p>Your Library</p></div>
+    </div>
+    <div class="align2">
+        <div ><img src="assets\plus.png" alt="" class="small-icon"><img src="assets\object3.png" alt="" class="sidemenu-img2"><p class="inline">Create Playlist</p></div>
+        <div><img src="assets\heart.png" alt="" class="small-icon"><img src="assets\object1.png" alt="" class="sidemenu-img2"><p class="inline">Liked Songs</p></div>
+        <div><img src="assets\live.png" alt="" class="small-icon"><img src="assets\object4.png" alt="" class="sidemenu-img2"><p class="inline">Your Episodes</p></div>
+    </div>
+    <div class="align3">
+        <p id="heading">FAV</p>
+        <p>Daily Mix 1</p>
+        <p>Discover Weekly</p>
+        <p>Malayalam</p>
+        <p>Dance/Electronic Mix</p>
+        <p>EDM/Popular</p>
+    </div>
+    <div class="align4">
+        <div class="flex"><img src="assets\grommet-icons_install-option.png" alt="" id="downward-arrow"><p>Install App</p></div>
+    </div>
+</div>
+<div  id="home-page">
+    <div class="flex1" id="header">
+        <div><img src="assets\top arrow navigation.png" alt="" id="top-arrow"></div>
+        <div><button  class ="flex" id="button1"><img src="assets\image1.png" alt="" id="profile-pic"><p>Angel</p><img src="assets\fi-ss-caret-down.png" alt="" id="arrow"></button></div>
+    </div>
+    <div id="playlist-top">
+        <h2>Good Morning</h2>
+        <div class="flex wrap grid1">
+            <div class="flex grey"><img src="assets\heart.png" alt="" id="heart"><img src="assets\object1.png" alt="" class="playlist-img"><p>Liked Songs</p></div>
+            <div class="flex grey"><img src="assets\image4.png" alt="" class="playlist-img"><p>Neffex Playlist</p></div>
+            <div class="flex grey"><img src="assets\image3.png" alt="" class="playlist-img"><p>K/DA</p></div>
+            <div class="flex grey"><img src="assets\image1.png" alt="" class="playlist-img"><p>Liked Songs</p></div>
+            <div class="flex grey align-item "><img src="assets\image2.png" alt=""  class="playlist-img"><p>Dance/ Electronic Mix</p></div>
+    </div>
+    <div id="shows-section">
+        <h3>Shows you might like</h3>
+        <div class="flex align-item grid">
+            <div class="black-section">
+                <img src="assets\image9.png" alt="" class="shows-img">
+                <h3>Weekly Motivatio...</h3>
+                <p>Bendna Scott</p>
             </div>
-            <div class="criteria">
-                <div class="playlist"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/object3.png" alt=""><p>Create Playlist</p></div>
-                <div class="liked"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/object1.png" alt=""><p>Liked Songs</p></div>
-                <div class="yepisodes"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/object4.png" alt=""><p>Your Episodes</p></div>
+            <div class="black-section">
+                <img src="assets\image8.png" alt="" class="shows-img">
+                <h3>MEDITATION SELF</h3>
+                <p>Lbn Hussain ALeen</p>
             </div>
-            <div class="fav">
-                <h4>Fav</h4>
-                <p>Daily Mix 1</p>
-                <p>Discover Weekly</p>
-                <p>Malayalam</p>
-                <p>Dance/Electronic Mix</p>
-                <p>EDM/Popular</p>
+            <div class="black-section">
+                <img src="assets\image7.png" alt="" class="shows-img">
+                <h3>Words beyond act</h3>
+                <p>Samuel Scott</p>
             </div>
-            <div class="install"> <img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/grommet-icons_install-option.png" alt=""><p>Install App</p></div>
-        </div>
-        <div class="content">
-            <div class="top">
-                <div class="arrows"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/top%20arrow%20navigation.png" alt=""></div>
-                <div class="profile"><img src="data:image/png;base64,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" alt=""></div>
-                
+            <div class="black-section">
+                <img src="assets\image6.png" alt="" class="shows-img">
+                <h3>The Alexa Show</h3>
+                <p>Adriana Tom</p>
             </div>
-            <div class="m1">
-                <p id="greet">Good morning</p>
-                <div class="imgtext1">
-                    <div id="one"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/object1.png" alt=""><p>Liked Songs</p></div>
-                    <div id="two"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image4.png" alt=""> <p>Neffex playlist</p></div>
-                    <div id="three"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image3.png" alt=""><p>K/DA</p></div>
-                    <div id="four"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image1.png" alt=""><p>Liked Songs</p></div>
-                    
-                </div>
-                <div class="imgtext2">
-                    <div id="five"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image2.png" alt=""><p>Dance/Electronic Mix</p></div>
-
-                </div>
+            <div class="black-section">
+                <img src="assets\image5.png" alt="" class="shows-img">
+                <h3>The Stories of Ma</h3>
+                <p>Lexus</p>
             </div>
-            <div class="m2">
-                <div class="recommendation"><p>Shows You Might Like</p></div>
-                <div class="imgtext2">
-                    <div id="o"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image9.png" alt=""><p>Weekly Motivation</p></div>
-                    <div id="t"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image8.png" alt=""><p>Meditation Self</p> </div>
-                    <div id="th"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image7.png" alt=""><p>Words beyond act...</p></div>
-                    <div id="f"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image6.png" alt=""><p>The Alexa Show</p></div>
-                    <div id="fi"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image5.png" alt=""><p>The Stories of Ma...</p></div>
-                    <div id="six"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image10.png" alt=""><p>Motivation Daily b...</p></div>
-                </div>
-
-            </div>
-            <div class="footer">
-                <div class="play">
-                    <div class="fimg1"><img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/image11.png" alt=""><p><a>Dreaming on</a><br><span>NEFFEX</span></p></div>
-                    <div class="heart">
-                        <img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/bx_bxs-heart.png" alt="">
-                        
-                    </div>
-                    <div class="parts">
-                        <img src="https://raw.githubusercontent.com/kSharugeshwaran/spotify-clone-boilerplate/973bedbcfab1a657405b8ca675e6c987f6dc7bd5/assets/Music%20Player%20Options.png" alt="">
-                    </div>
-                    <div class="last">
-                        <img src="https://github.com/kSharugeshwaran/spotify-clone-boilerplate/blob/main/assets/Right%20options.png?raw=true" alt="">
-                    </div>
-                </div>
-                <div class="button">
-                
-
-                </div>
+            <div class="black-section">
+                <img src="assets\image10.png" alt="" class="shows-img">
+                <h3>Motivation Daily </h3>
+                <p>Georgina Martha</p>
             </div>
         </div>
     </div>
+</div>
+</div>
 </body>
+<footer>
+ <div class="flex4" id="music-bar">  
+    <div class="flex5">
+        <img src="assets\image11.png" alt="" id="playing-song">
+        <div id="song-name"><h5>Dreaming On</h5><p>NEFFEX</p></div>
+        <img src="assets\bx_bxs-heart.png" alt="" id="green-heart">
+    </div>
+    <div >
+        <img src="assets\Music Player Options.png" alt="" id="music-player">
+    </div>
+    <div>
+        <img src="assets\Right options.png" alt="" id="right-option">
+    </div>
+</div> 
+<div class="flex" id="text">
+    <p>Listening on ASUS-ROG-G531GT</p>
+</div>
+</footer>
 </html>
